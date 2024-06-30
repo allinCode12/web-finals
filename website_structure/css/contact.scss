@@ -1,0 +1,61 @@
+.hero-banner {
+    background-image: url('/website_structure/images/contact.webp');
+    background-size: cover;
+    background-position: top center;
+    background-attachment: fixed;
+    height: 50vh;
+    position: relative;
+
+    .overlay {
+        background-color: rgba(0, 0, 0, 0.5); // Dark overlay
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    h1 {
+        font-size: 3rem;
+        font-weight: bold;
+    }
+}
+
+.contact-section {
+    padding: 50px 0;
+    background-color: #f8f9fa;
+}
+
+.contact-form {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 30px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+
+    .mb-3 {
+        text-align: left;
+    }
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border-color: #6c757d;
+}
+
+.form-icon {
+    font-size: 1.2em;
+    margin-right: 10px;
+}
+
+.form-label {
+    font-weight: 600;
+}
+
+#thankYouImage {
+    max-width: 60vh;
+    margin: 0 auto;
+}

@@ -8,7 +8,6 @@ body {
 }
 
 .main-menu {
-    
     top: 0;
     width: 100%;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -88,6 +87,7 @@ body {
 }
 
 .section {
+    overflow: hidden;
     width: 100%;
     padding: 60px 0;
 
@@ -171,7 +171,7 @@ body {
             left: 10%;
             transform: unset;
             min-height: 40px;
-            max-height: 40%;
+            max-height: 60%;
 
             h1 {
                 font-size: 40px;

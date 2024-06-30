@@ -85,6 +85,7 @@ body h2 {
 }
 
 .section {
+  overflow: hidden;
   width: 100%;
   padding: 60px 0;
 }
@@ -156,7 +157,7 @@ body h2 {
     left: 10%;
     transform: unset;
     min-height: 40px;
-    max-height: 40%;
+    max-height: 60%;
   }
   .slider .content h1 {
     font-size: 40px;
